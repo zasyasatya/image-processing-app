@@ -2,6 +2,7 @@
 
 
 image processing app is an application that implements GUI based image processing methods. Image processing methods are created from scratch so that they can introduce how a method works.
+![Alt text](https://github.com/zasyasatya/image-processing-app/blob/master/app.png "App")
 
 ## Features
 
