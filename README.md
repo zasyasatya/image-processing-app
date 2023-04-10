@@ -1,6 +1,7 @@
 ### _Image Processing App_
 
-SI-Ultramen is an Information System that functions to manage documents in each division and branch at Perumda Air Drinking Tirta Hita Buleleng. This Information System is a medium for document assignment, document upload, and document tracking.
+
+image processing app is an application that implements GUI based image processing methods. Image processing methods are created from scratch so that they can introduce how a method works.
 
 ## Features
 
