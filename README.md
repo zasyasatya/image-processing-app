@@ -37,7 +37,7 @@ image processing app is an application that implements GUI based image processin
 
 - Python 3.8
 - PySimpleGUI
-- Pillow - Template dalam pengembangan website
+- Pillow 
 
 
 ## Installation Dependencies
