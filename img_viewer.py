@@ -152,7 +152,7 @@ layout = [
         sg.Column(list_processing)         
     ] 
 ] 
-window = sg.Window("Mini Image Editor by Zasya", layout, modal = False) 
+window = sg.Window("Image Processing App by Zasya", layout, modal = False) 
 
 # Windows Image 2
 def Window2(fileName, img):
@@ -175,19 +175,19 @@ while True:
     event, values = window.read() 
     if event == "Exit" or event == sg.WIN_CLOSED: 
         break 
-    if not win2_active or for_image == 2:
-        win2_active = True
-        layout2 = [
-            [sg.Text("Image Input 2: ")], 
-            # [sg.Image(key="ImgInputViewer2")], 
-        ]
-        window2 = sg.Window("Image 2", layout2, modal = True) 
-        while True:
-            event2, values2 = window2.read()
-            if event2 is None:
-                win2_active = False
+    # if not win2_active or for_image == 2:
+    #     win2_active = True
+    #     layout2 = [
+    #         [sg.Text("Image Input 2: ")], 
+    #         # [sg.Image(key="ImgInputViewer2")], 
+    #     ]
+    #     window2 = sg.Window("Image 2", layout2, modal = True) 
+    #     while True:
+    #         event2, values2 = window2.read()
+    #         if event2 is None:
+    #             win2_active = False
 
-                break
+    #             break
 # Folder name was filled in, make a list of files in the folder 
     if event == "ImgFolder": 
         folder = values["ImgFolder"] 
